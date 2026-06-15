@@ -1,0 +1,44 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pinned
+Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Generated assets
+Frames/
+
+# Large external binaries
+ffmpeg
+ffmpeg.zip
